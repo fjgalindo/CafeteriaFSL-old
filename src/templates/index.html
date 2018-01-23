@@ -18,7 +18,7 @@
     <div class="content">
         <div class="row">
             <div class="col">
-                <nav class="navbar navbar-dark bg-primary">
+                <nav class="navbar navbar-dark bg-primary topbar">
                     <a class="navbar-brand" href="#">
                         <!--
                     <img src="/bootstrap-material-design/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt=""> -->
@@ -26,18 +26,25 @@
                     </a>
                     <div class="form-inline my-0">
                         <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
-  <div class="btn-group mr-2" role="group" aria-label="First group">
-    <button type="button" class="btn btn-raised btn-secondary">
-                        <button type="button" class="btn btn-secondary bmd-btn-icon bmd-btn-icon-sm">
-                            <i class="material-icons">account_circle</i>
-                        </button> 10€</button>
-                            </div></div>
+                            <div class="btn-group mr-2" role="group" aria-label="First group">
+                            <button type="button" class="btn btn-secondary bmd-btn-icon bmd-btn-icon-sm">
+                                <i class="material-icons">account_circle</i>
+                                </button>
+                                <div class="topbar_info_cash">
+                                10,00 €</div>
+                            </div>
+                        </div>
                         
                         <button type="button" class="btn btn-secondary bmd-btn-icon bmd-btn-icon-sm">
                             <i class="material-icons">shopping_cart</i>
                         </button>
                     </div>
                 </nav>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+
             </div>
         </div>
     </div>
@@ -51,7 +58,6 @@
         $(document).ready(function() {
             $('body').bootstrapMaterialDesign();
         });
-
     </script>
 </body>
 
