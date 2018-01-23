@@ -1,6 +1,8 @@
 # CafeteriaFSL
 
-https://fezvrasta.github.io/bootstrap-material-design/
+Bootstrap material: https://fezvrasta.github.io/bootstrap-material-design/
+
+Iconos: https://material.io/icons/
 
 npm install gulp --save-dev
 npm install gulp-sass --save-dev
