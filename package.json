@@ -1,0 +1,19 @@
+{
+  "name": "cfsl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fjgalindo/CafeteriaFSL.git"
+  },
+  "author": "Javier Galindo, Vicente Cabedo, Alejandro Sahuquillo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fjgalindo/CafeteriaFSL/issues"
+  },
+  "homepage": "https://github.com/fjgalindo/CafeteriaFSL#readme"
+}
