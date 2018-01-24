@@ -2,7 +2,7 @@
 <html lang="es">
 
 <head>
-    <title>Cafeteria FSL | Inicio</title>
+    <title>Cafeteria FSL | Entrar</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -15,56 +15,40 @@
 </head>
 
 <body>
-    <div class="content">
+    <div class="container-fluid">
         <div class="row">
             <div class="col">
-                <nav class="navbar navbar-dark bg-primary topbar">
+                <nav class="navbar navbar-dark bg-primary row topbar">
                     <a class="navbar-brand" href="#">
                         <!--
                     <img src="/bootstrap-material-design/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt=""> -->
-                        Cafetería FSL
+                        Cafetería I.E.S. Fuente San Luis
                     </a>
-                    <div class="form-inline my-0">
-                        <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
-                            <div class="btn-group mr-2" role="group" aria-label="First group">
-                                <button type="button" class="btn btn-secondary bmd-btn-icon bmd-btn-icon-sm">
-                                <i class="material-icons">account_circle</i>
-                                </button>
-                                <div class="topbar_info_cash">
-                                    10,00 €</div>
-                            </div>
-                        </div>
-
-                        <button type="button" class="btn btn-secondary bmd-btn-icon bmd-btn-icon-sm">
-                            <i class="material-icons">shopping_cart</i>
-                        </button>
-                    </div>
                 </nav>
             </div>
         </div>
-        <div class="row justify-content-center align-items-cente">
-            <div class="col-auto">
+        <div class="row justify-content-center">
+            <div class="col-auto mt-5 mt-sm-4 mb-sm-2 mb-3">
                 <h2>Iniciar Sesión</h2>
-            </div></div>
-        <div class="row align-items-center">
-            <div class="col">
+            </div>
+        </div>
+        <div class="row align-items-center justify-content-center">
+            <div class="col-lg-6 col-11">
                 <form>
                     <div class="form-group">
                         <label for="userInput">Nombre de usuario</label>
                         <input type="text" class="form-control" id="userInput" aria-describedby="userHelp" placeholder="Tu nombre de usuario de la intranet">
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputPassword1">Password</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                        <label for="passwordInput">Contraseña</label>
+                        <input type="password" class="form-control" id="passwordInput" placeholder="">
                     </div>
-                    <div class="form-check">
-                        <label class="form-check-label">
-      <input type="checkbox" class="form-check-input">
-      Check me out
-    </label>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
+            </div>
+        </div>
+        <div class="row justify-content-center mt-5 mt-sm-2">
+            <div class="col-aut">
+                <a href="home.html"><button type="submit" class="btn btn-raised btn-primary btn-lg">Entrar</button></a>
             </div>
         </div>
     </div>
@@ -73,13 +57,7 @@
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/bootstrap-material-design@4.0.0-beta.4/dist/js/bootstrap-material-design.js" integrity="sha384-3xciOSDAlaXneEmyOo0ME/2grfpqzhhTcM4cE32Ce9+8DW/04AGoTACzQpphYGYe" crossorigin="anonymous"></script>
-    <script>
-        $(document).ready(function() {
-            $('body').bootstrapMaterialDesign();
-        });
-
-    </script>
+    <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-3xciOSDAlaXneEmyOo0ME/2grfpqzhhTcM4cE32Ce9+8DW/04AGoTACzQpphYGYe" crossorigin="anonymous"></script>
 </body>
 
 </html>

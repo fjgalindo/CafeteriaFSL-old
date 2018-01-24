@@ -6,7 +6,7 @@ const fuente_html = './src/templates/**/*',
 
 /* ======== DIRECTORIOS DESTINO ========== */
 const destino_html = './build/',
-    destino_scss = './build/stylesheets/',
+    destino_scss = './build/stylesheets',
     destino_js = './build/js/',
     destino_imagenes = './build/img/';
 
@@ -37,8 +37,7 @@ gulp.task('scss', function () {
     //Ruta de la carpeta sass apuntando a los archivos `.scss`
     return gulp.src(fuente_scss)
         //Compila los archivos `.scss` y muestra posibles errores
-        .pipe(sass().on('error', sass.logError))
-        //Carpeta donde se guardaran los archivos `.css` compilado
+        .pipe(sass().on('error', sass.logError))        //Carpeta donde se guardaran los archivos `.css` compilado
         .pipe(gulp.dest(destino_scss))
         // Se actualiza la vista del navegador.
         .pipe(browserSync.stream())
